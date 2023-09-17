@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    scroll-padding-top: 2rem;
+    box-sizing: border-box;
+}
+
+/* root values */
+:root {
+    --container-color: #1a1e21;
+    --second-color: #3d8f2d;
+    --text-color: #172317;
+    --bg-color: #fff;
+}
+
+::selection {
+    color: var(--bg-color);
+    background: var(--second-color);
+}
+
+
+.myinfo {
+    display: grid;
+    grid-row: 3;
+    margin: 30px;
+    justify-items: center;
+    padding: 10px 20px;
+}
+
+.myinfo img {
+    width: 500px;
+    height: 550px;
+    background-blend-mode: screen;
+}
+
+.myinfo p {
+    width: 80%;
+}
+
+.myinfo h2 {
+    margin: 15px;
+    border-bottom: 2px solid #172317;
+}
+
+.myinfo hr {
+    margin-top: 50px;
+    border: 1px solid #172317;
+    width: 80%;
+}
+
+header {
+    background-color: var(--second-color);
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+header h1 {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+
+button {
+    background-color: var(--container-color);
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 35px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+.slider-head {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.Slides_img {
+
+    width: 373px;
+    height: 400px;
+    margin-left: 30%;
+}
+
+.Form_Section {
+    display: grid;
+    grid-row: 2;
+    justify-items: center;
+}
+
+.Form_Section hr {
+    margin-top: 50px;
+    border: 1px solid #172317;
+    width: 80%;
+}
+
+@media screen and (max-width: 600px) {
+
+    /* Adjust header font size */
+    header {
+        width: 100%;
+    }
+
+    /* Center-align text in myinfo and reduce font size */
+    .myinfo {
+        display: grid;
+        grid-row: 3;
+        margin: 30px;
+        justify-items: center;
+        padding: 10px 20px;
+    }
+
+    .myinfo img {
+        width: 450px;
+        height: 550px;
+        margin: 0%;
+        margin-top: 20px;
+    }
+
+
+    Adjust slider width for small screens .w3-content.w3-display-container {
+        width: auto;
+        margin-left: 0%;
+        margin-right: 0%;
+    }
+
+    .Slides_img {
+
+        width: 373px;
+        height: 400px;
+        margin-left: 15%;
+    }
+
+    .Form_Section h2 {
+        text-align: center;
+    }
+
+    /* Make the iframe width 100% to fit smaller screens */
+    iframe {
+        width: 100%;
+        min-height: 200px;
+    }
+}
