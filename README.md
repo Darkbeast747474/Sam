@@ -3,6 +3,8 @@
 This Website Is a Simple Blog For My Client "Samridhi Kumra"
 Here's her [InstaGram](https://www.instagram.com/samridhikumra?igsh=MzRlODBiNWFlZA==) For Any Query With Her
 
+Here's The Preview -> [Link_To_Main_Page](https://darkbeast747474.github.io/Sam/Feedback.html)
+
 ## _Contents_
 - About My Client And The Purpose She Serves With Her Profile Picture
 - An Image Slider Scripted In JavaScript By {Component By [W3 School](https://www.w3schools.com/)}
