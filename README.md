@@ -12,5 +12,5 @@ Here's The Preview -> [Link_To_Main_Page](https://darkbeast747474.github.io/Sam/
 
 ## _Project's Designers And Implementors_
 - Deepak Mehra Worked On CSS Designing, Here's His [InstaGram](https://www.instagram.com/wings_dk_8?igsh=ZDNlZDc0MzIxNw==)
-- Deepak Kaushal {It's Me} Worked On HTML Structure & Image Slider And Overall Structure
+- Deepak Kaushal {It's Me} Worked On HTML Structure & Image Slider And Overall Structure {A lil' Bit on CSS too!!}
 
